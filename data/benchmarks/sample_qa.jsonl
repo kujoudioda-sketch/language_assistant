@@ -1,0 +1,2 @@
+{"question":"RAG 系统为什么能降低幻觉？","expected_sources":["data/sample_docs/rag_overview.md"],"reference_answer":"RAG 先检索相关原文，再要求模型基于证据回答，因此可以减少无依据生成。"}
+{"question":"检索质量可以用哪些指标评估？","expected_sources":["data/sample_docs/rag_overview.md"],"reference_answer":"可以使用 Recall@k 和 Mean Reciprocal Rank 等指标。"}
