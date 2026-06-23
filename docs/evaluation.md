@@ -18,5 +18,5 @@
 ## 运行
 
 ```bash
-python scripts/rag_cli.py benchmark --benchmark data/benchmarks/sample_qa.jsonl --index storage/faiss
+python scripts/rag_cli.py evaluate --benchmark data/benchmarks/sample_qa.jsonl --index storage/faiss
 ```
